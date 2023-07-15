@@ -12,7 +12,7 @@ with:
     customizable shooting arc(like in shotguns)
     customizable spawn point
     debugs! - for spawnpoint and shoot_arc
-  Bullet node:
+  Bullet class:
     
     delete after( time to delete the bullet node after shooting )
   
@@ -25,7 +25,7 @@ setup:
 
 How to use:
 
-    1.create a new scene and add bullet node and save it as a scene.
+    1.create a new scene and make a Area2D as its root and make sure the script extends from the *Bullet* class
     2.in another scene, add the gun node and put your bullet scene in the "bullet" paramater in the inspector. 
     3.then set the other paramters of the gun node to your fit your game.
     4.you can fire the gun by calling Gun.shoot(speed,angle)
