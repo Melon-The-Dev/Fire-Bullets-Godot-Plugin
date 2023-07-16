@@ -31,3 +31,4 @@ How to use:
     4.you can fire the gun by calling Gun.shoot(speed,angle)
 
 thats all! more description in the documentation!
+also if you need help, visit my discord:) https://discord.gg/rKVSzgHDMy
